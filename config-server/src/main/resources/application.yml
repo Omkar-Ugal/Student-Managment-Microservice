@@ -3,10 +3,11 @@
       name: config-server
     cloud:
       config:
-              server:
-                git:
-                  uri: https://github.com/Omkar-Ugal/config-repo
-                  clone-on-start: true
+        server:
+          git:
+            uri: https://github.com/Omkar-Ugal/Student-Managment-Microservice
+            search-paths: config-server
+            clone-on-start: true
 
   server:
      port: 8888
